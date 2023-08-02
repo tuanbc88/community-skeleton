@@ -14,6 +14,11 @@
 </p>
 
 <p align="center">
+    <a href="https://twitter.com/intent/follow?screen_name=uvdesk"><img src="https://img.shields.io/twitter/follow/uvdesk?style=social"></a>
+    <a href="https://www.youtube.com/channel/UCKKt4IOC7ynLwhJMP35uFeQ"><img src="https://img.shields.io/youtube/channel/subscribers/UCKKt4IOC7ynLwhJMP35uFeQ?style=social"></a>
+</p>
+
+<p align="center">
     ➡️ <a href="https://www.uvdesk.com/en/opensource/">Website</a> | <a href="https://docs.uvdesk.com/">Documentation</a> | <a href="https://www.uvdesk.com/en/blog/open-source-helpdesk-installation-on-ubuntu-uvdesk/">Installation Guide</a> | <a href="https://forums.uvdesk.com/">Forums</a> | <a href="https://www.facebook.com/uvdesk/">Community</a> ⬅️
 </p>
 
@@ -46,6 +51,7 @@ Getting Started
 * [Requirements](#requirements)
 * [Installation](#installation)
 * [Docker Runtime](#docker-runtime)
+* [Vagrant Virtual Environment](#vagrant-virtual-environment)
 * [License](#license)
 * [Security Vulnerabilities](#security-vulnerabilities)
 * [Feedback](#feedback)
@@ -215,11 +221,15 @@ php bin/console c:c
 
 > *http(s)://example.com/en/customer/login*
 
-
 Docker Runtime
 --------------
 
 [Dockerize your helpdesk project][22]
+
+Vagrant Virtual Environment
+--------------
+
+[Get started with uvdesk now by using vagrant to setup virtual environment][33]
 
 Modules
 --------------
@@ -296,4 +306,4 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 [30]: https://www.uvdesk.com/en/blog/uvdesk-marketing-announcement/
 [31]: https://support.uvdesk.com/es/blog/uvdesk-what-is-kudos
 [32]: https://www.uvdesk.com/en/blog/language-translation-in-uvdesk-open-source-helpdesk/
-
+[33]: https://github.com/uvdesk/community-skeleton/wiki/Vagrant-Virtual-Machine-Environment

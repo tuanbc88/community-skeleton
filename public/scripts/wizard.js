@@ -2,7 +2,7 @@
     const ERRORS = {
         error404: {
             title: 'Unable to locate the path on the server.',
-            description: 'Try putting index.php after your helpdesk installation\'s site url or If you are using apache, make sure that mode_rewrite module is enabled and AllowOverride directive for document root is set to All/FileInfo in your server\'s configuration file.',
+            description: 'Try putting index.php after your helpdesk installation\'s site url or If you are using apache, make sure that mod_rewrite module is enabled and AllowOverride directive for document root is set to All/FileInfo in your server\'s configuration file.',
         },
         error500: {
             title: 'Something\'s bad happened with the server.',
@@ -838,8 +838,6 @@
                         } else {
                             var currentconfigfileIconStatus = this.wizard_icons_notice_template();
                             if (currentconfigfileName == 'uvdesk') {
-                                var currentconfigfileTextStatus = "<span class='configfiles_name'> " + currentconfigfileName + ".yaml  read/write file permission is disabled </span>";
-                            } else if (currentconfigfileName == 'swiftmailer') {
                                 var currentconfigfileTextStatus = "<span class='configfiles_name'> " + currentconfigfileName + ".yaml  read/write file permission is disabled </span>";
                             } else {
                                 var currentconfigfileTextStatus = "<span class='configfiles_name'>" + currentconfigfileName + ".yaml  read/write file permission is disabled </span>";
